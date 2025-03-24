@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SanCarlos Admin</title>
+  <title>Qta_Snupy Admin</title>
   <link rel="icon" href="image.png" type="image/png">
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
@@ -106,10 +106,10 @@
     const database = firebase.database();
 
     // Nombre del condominio
-    const condoName = 'SanCarlos';
+    const condoName = 'Qta_Snupy';
 
     // Mostrar el nombre del condominio en la web
-    document.getElementById('residence-name').textContent = `Condominio: ${condoName}`;
+    document.getElementById('residence-name').textContent = `${condoName}`;
 
     // Referencia a la base de datos para usuarios
     const usersRef = database.ref(`${condoName}/usuarios`);
